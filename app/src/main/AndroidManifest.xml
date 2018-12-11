@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.restaux">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".kebap" />
+        <activity android:name=".nems" />
+        <activity android:name=".tradi" />
+        <activity android:name=".pizaa" />
+        <activity android:name=".sushis" />
+        <activity android:name=".liste_restaux" />
+        <activity android:name=".infos" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".reservation" />
+        <activity android:name=".liste_restaux2"></activity>
+    </application>
+
+</manifest>

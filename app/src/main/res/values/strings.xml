@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+
+
+    <string name="image_description">image_description</string>
+
+    <string name="choisir_un_restaurant">Choisir un restaurant</string>
+    <string name="text2_description">Le Mouffetard</string>
+    <string name="titre2">Le Mouffetard</string>
+    <string name="p1">Saisie votre réservation : </string>
+    <string name="Nom">Nom:</string>
+    <string name="tt">Restaurant dans le centre de Strasbourg
+
+Dans le menu:
+
+Milkshake au chocolat
+Planchettes
+Leek pie</string>
+
+
+</resources>

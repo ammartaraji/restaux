@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".reservation">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Passer votre reservation"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:translationY="20dp"
+        android:paddingBottom="140dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:text="@string/p1"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Nom"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:hint="saisie votre nom"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:text="Prenom"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:hint="saisie votre prenom"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:text="Adresse"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:hint="votre adresse"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="100dp">
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="15dp" />
+
+            <EditText
+
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:hint="jj/mn/aa"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/cli"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:onClick="valider"
+            android:text="Reserver" />
+
+        <Button
+            android:id="@+id/click"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+             android:onClick="set"
+            android:text="Annuler" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
